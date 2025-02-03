@@ -6,7 +6,6 @@ library(ggridges)
 library(hrbrthemes)
 
 load("books_df")
-authors_df <- read_csv("final_dataset.csv")
 
 books_df <- books_df |>
   mutate(author= str_extract(author, "^[^,]+")) |> # only the first author

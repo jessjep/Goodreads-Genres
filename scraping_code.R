@@ -4,7 +4,9 @@ library(stringr)
 library(purrr)
 library(ggplot2)
 
-genres <- c("classics")
+genres <- c("classics", "high-fantasy", "romantasy",
+            "science-fiction", "young-adult",
+            "literary-fiction", "thriller")
 most_read <- "https://www.goodreads.com/genres/most_read/"
 top_50 <- "https://www.goodreads.com/shelf/show/"
 
